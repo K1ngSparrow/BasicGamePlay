@@ -3958,6 +3958,8 @@ GameObject:
   - component: {fileID: 3135876197008083442}
   - component: {fileID: 3135876197017283890}
   - component: {fileID: 5950883103038043666}
+  - component: {fileID: 3465074126007377349}
+  - component: {fileID: 5882073444752963328}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -4045,6 +4047,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f06331129ec6c884aba37f061167e20c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+--- !u!65 &3465074126007377349
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135876197007881218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19735047, y: 0.2501106, z: 0.34038043}
+  m_Center: {x: -0.0027985177, y: 0.12472602, z: 0.027072787}
+--- !u!114 &5882073444752963328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3135876197007881218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a114f9336175a4ea4b5e3c32794cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3135876197007882346
